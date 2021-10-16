@@ -1,0 +1,104 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.contact {
+  float: right;
+  width: 84%;
+  height: 612px;
+}
+
+h1 {
+  text-align: center;
+}
+.icon {
+  float: left;
+  margin-left: 40px;
+  background-color: rgb(250, 247, 209);
+  padding: 2%;
+  border-radius: 70px;
+  display: flex;
+}
+
+.icon > svg {
+  width: 30px;
+  height: 30px;
+  color: lightblue;
+}
+
+.details {
+  margin-left: 12%;
+}
+
+.icon:hover {
+  background-color: aqua;
+}
+
+.contactMain h2 {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #45505b;
+}
+
+.linkedin img {
+  width: 10%;
+  height: 10%;
+}
+
+.github img {
+  width: 5%;
+  height: 5%;
+}
+
+.hackerrank img {
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 7%;
+  height: 7%;
+}
+a {
+  text-decoration: none;
+}
+a:visited,
+a:link {
+  color: lightblue;
+}
+
+.social {
+  margin-top: 2%;
+  margin-left: 2%;
+  height: fit-content;
+}
+
+.sendMessage {
+  float: right;
+  margin-top: -36%;
+  margin-right: 55px;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  margin-left: 20px;
+  background-color: rgb(247, 241, 241);
+}
+
+#subject {
+  width: 530px;
+}
+#message {
+  margin-left: 20px;
+  width: 530px;
+  resize: none;
+  height: 150px;
+  background-color: rgb(247, 241, 241);
+}
+#submit {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}

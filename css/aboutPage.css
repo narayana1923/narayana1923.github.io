@@ -1,0 +1,40 @@
+.mainContent{
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.content {
+  /* border: 2px black solid; */
+  width: 84.7%;
+  height: 615px;
+  float: left;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.content > h1 {
+  text-align: center;
+}
+
+.bio > p{
+  text-align: justify;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px 20px 5px 20px;
+  text-indent: 200px;
+}
+.list1{
+  margin-top: 20px;
+  float: left;
+  margin-left: 10%;
+}
+li{
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list2{
+  margin-top: 20px;
+  float: left;
+  margin-left: 20%;
+}
