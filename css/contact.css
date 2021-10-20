@@ -14,7 +14,7 @@ h1 {
 .icon {
   float: left;
   margin-left: 40px;
-  background-color: rgb(250, 247, 209);
+  background-color: rgb(227, 250, 249);
   padding: 2%;
   border-radius: 70px;
   display: flex;
@@ -23,7 +23,7 @@ h1 {
 .icon > svg {
   width: 30px;
   height: 30px;
-  color: lightblue;
+  color: rgb(82, 173, 204);
 }
 
 .details {
@@ -31,7 +31,11 @@ h1 {
 }
 
 .icon:hover {
-  background-color: aqua;
+  background-color: rgb(147, 255, 255);
+}
+
+.icon:hover > svg {
+  color: black;
 }
 
 .contactMain h2 {
@@ -81,7 +85,12 @@ input {
   width: 250px;
   height: 35px;
   margin-left: 20px;
-  background-color: rgb(247, 241, 241);
+  background-color: white;
+}
+
+input::placeholder{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 5px;
 }
 
 #subject {
@@ -92,7 +101,12 @@ input {
   width: 530px;
   resize: none;
   height: 150px;
-  background-color: rgb(247, 241, 241);
+  background-color: white;
+}
+#message::placeholder
+{
+  padding-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #submit {
   margin-left: 170px;
@@ -100,5 +114,12 @@ input {
   width: 30%;
   height: 40px;
   border-radius: 5px;
-  background-color: aquamarine;
+  background-color: rgb(5, 5, 5);
+  color: white;
 }
+
+img:hover{
+  box-shadow: 2px 5px 5px black,-2px -5px 5px black, 10px -2px 5px black;
+
+}
+
